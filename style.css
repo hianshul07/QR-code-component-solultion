@@ -1,0 +1,47 @@
+body {
+	margin: 0%;
+	background-color: hsl(212, 45%, 89%);
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 920px;
+}
+
+.card {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	height: 450px;
+	width: 300px;
+	border-radius: 16px;
+}
+
+img {
+	height: 270px;
+	border-radius: 16px;
+	margin-top: 15px;
+}
+
+.content {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-family: "outfit";
+	src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+.content h1 {
+	font-size: 1.4rem;
+	color: hsl(218, 44%, 22%);
+	font-weight: 700;
+}
+
+.content p {
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+	font-weight: 400;
+
+}
